@@ -1,0 +1,78 @@
+\documentclass[12pt,a4paper]{moderncv}
+    
+\usepackage[utf8]{inputenc}
+\usepackage[inline]{enumitem}
+\usepackage[top=1.2cm, bottom=0.1cm, left=1.6cm, right=1.6cm]{geometry}
+\usepackage{enumitem}
+\setlist{nosep}
+
+\moderncvtheme[blue]{classic}
+\setlength{\hintscolumnwidth}{2.8cm}
+
+\firstname{Arnaud}
+\lastname{Chaubet}
+\address{7 Rue Antonio Vivaldi}{64121, Serres-Castet, France}
+\phone[mobile]{07 81 21 69 34}
+\email{chaubet.arnaud@gmail.com}
+\social[github]{xephir64} 
+
+\begin{document}
+
+\makecvtitle
+
+\vspace*{-8mm}
+
+\section{Skills}
+\cvitem{Languages}{C, C++, Java, Rust, Ada, Python, Scheme, HTML, CSS, JavaScript, TypeScript}
+\cvitem{Frameworks}{Node.js, NestJS, Angular, Express.js, Three.js}
+\cvitem{Systems}{System programming on Linux: IPC (Shared Memory, Queues, Pipes, Sockets, Semaphores), Processes, POSIX Threads, Bash Scripts}
+\cvitem{Tools}{Git, UML, Docker, RDBMS (Oracle, MariaDB), NoSQL (MongoDB), GNU Make, CMake}
+\cvitem{Languages}{French (Native), English (Intermediate), Spanish (Beginner)}
+
+\section{Education}
+\cventry{2022-2024}{MSc in Computer Science}{University of Pau and Adour Countries}{Pau}{France}{}
+\cventry{2019-2022}{BSc in Computer Science}{University of Pau and Adour Countries}{Pau}{France}{}
+\cventry{2019}{Scientific Baccalaureate}{Lycée de Montardon}{France}{}{}
+
+
+\section{Professional Experience}
+\cventry{2025 - 2026}{Java Developer - 1 year}{TotalEnergies}{Pau}{France}{%
+\begin{itemize}
+\itemsep0em
+\item Maintenance of a pre-processing application for reservoir simulation model creation (Java 21, NetBeans Platform)
+  \begin{itemize}
+  \itemsep0em 
+  \item Application maintenance: bug fixing, performance improvements
+  \item Enhancements to End-To-End tests (QFTest)
+  \end{itemize}
+\end{itemize}}
+\cventry{2024}{Java Developer Intern - 5 months}{Safran Helicopter Engines}{Bordes}{France}{%
+\begin{itemize}
+\itemsep0em
+\item Design of an XML document comparator (Java, Apache FOP, JavaFX)
+  \begin{itemize}
+  \itemsep0em 
+  \item State-of-the-art review of XML document comparison algorithms
+  \item Writing of the technical specification
+  \item Definition of the library architecture
+  \item Development of the library using the selected algorithm
+  \end{itemize}
+\item Development of a user management interface (NestJS, Angular)
+\end{itemize}}
+
+\section{Projects}
+\cventry{}{NES Emulator (Rust, SDL2)}{}{}{}{%
+\begin{itemize}
+\item Development of a NES emulator in Rust
+\end{itemize}}
+\cventry{}{Space Invaders 3D (JavaScript, Three.js)}{}{}{}{%
+\begin{itemize}
+\item Development of a 3D clone of the Space Invaders game
+\end{itemize}}
+
+\section{Interests}
+\cvitem{}{IT maintenance, troubleshooting and identification of problems, replacement or repair of faulty components}
+\cvitem{}{Regular reading of high-tech press}
+\cvitem{}{Pratice of Tennis}
+
+\end{document}
